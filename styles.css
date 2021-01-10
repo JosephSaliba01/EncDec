@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    background-color: rgba(13, 11, 43,1);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+#body_top_div {
+    background:linear-gradient(1deg, rgba(13, 11, 43,1) 0%, rgba(38,0,115,0.60) 50%, rgba(13, 11, 43,1) 100%), url("pictures/encryption_bg_2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-content: center;
+
+}
+
+#body_top_div p {
+    font-family: 'Lobster', cursive;
+    font-size: 13vh;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#body_top_div div {
+    margin: auto;
+}
+
+#main_div {
+    height: 75vh !important; 
+    border: 2px solid rgb(13, 11, 43);
+    border-radius: 1vh;
+    padding: 3vh;
+}
+
+#body_bottom_div {
+    background-color: white;
+    border-radius: 1vh;
+    margin: auto;
+    width: 95%;
+    height: fit-content;
+    overflow: hidden
+}
+
+#body_bottom_div p{
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+    color: rgb(13, 11, 43);
+    font-size: 3.25vh;
+    
+}
+
+#body_bottom_div div {
+    height: fit-content;
+    margin: 10vh;
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: rgb(13, 11, 43);
+    font-size: 4.25vh;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+a:visited, a:active, a:hover, a:link {
+    color: teal;
+    text-decoration: none;
+}
+
